@@ -44,7 +44,7 @@ int main() {
     cout << "Age: " << age << "\n";
     cout << "University: " << university << "\n";
     cout << "Height: " << height << "\n";
-    cout << "Learning Programming: " << is_learning_programming << "\n";
+    cout << "Learning Programming: " << (is_learning_programming ? "True" : "False") << "\n";
 
 
     return 0;
